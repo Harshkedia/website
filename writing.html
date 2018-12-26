@@ -1,0 +1,515 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title> harshvardhan kedia </title>
+  <link rel="icon shortcut" href="icon.ico" type="image/x-icon";/>
+  
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+/*****************************************************************************/
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+  @media only screen and (min-width: 600px){
+  .side-bar-background{ 
+    overflow: hidden;
+    position: fixed;
+    z-index: +1;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    padding-left: 10px;
+    height: 1000px;
+    width: 240px;
+    background-color: rgb(255,255,255);
+    border-right-style: dotted;
+  }
+
+  .side-bar-name{ 
+    position: fixed; 
+    float: left;
+    font-family: 'Space Mono', monospace;
+    font-size: 18pt;             
+    color: black;
+    width: 200px;
+    text-decoration: none;
+    line-height: 1;
+  }
+
+  .side-bar-name:link{
+    font-family: 'Space Mono', monospace; 
+    color: rgb(0,0,0);  
+    text-decoration: none;
+  }
+
+  .side-bar-name:visited{
+    font-family: 'Space Mono', monospace; 
+    color: rgb(0,0,0);  
+    text-decoration: none;
+  }
+
+  .side-bar-name:hover{
+    font-family: 'Space Mono', monospace; 
+    color: rgb(0, 0, 255);  
+    text-decoration: line-through;
+  }
+
+  .header-00{
+    position: fixed;
+    margin-top: 40px;
+    margin-left: -30px;
+    width: 270px;
+  }
+
+  .header-01:link{        
+    float: left;
+    margin-left: -10px;
+    margin-top: 10px;
+    font-family: 'Space Mono', monospace;             
+    color: black;
+    text-decoration: underline;
+    line-height: 1;
+  }
+
+  .header-01:visited{        
+    float: left;
+    margin-left: -10px;
+    margin-top: 10px;
+    font-family: 'Space Mono', monospace;             
+    color: black;
+    text-decoration: underline;
+    line-height: 1;
+  }
+
+  .header-02{          
+    float: left;
+    margin-top: 5%;
+    margin-left: -20%;
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+    font-size: 10pt;             
+    color: black;
+    text-decoration: none;
+    line-height: 1.2; 
+  }
+
+  .header-01:hover{
+    font-family: 'Space Mono', monospace; 
+    color: rgb(0, 255, 255);  
+    text-decoration: line-through;
+  }
+
+  .header-03:link{
+    color:black;
+    text-decoration: none;
+  }
+
+  .header-03:visited{
+    color:black;
+    text-decoration: none;
+  }
+
+  .header-03:hover{
+    font-family: 'Space Mono', monospace; 
+    color: rgb(255, 0, 255);  
+    text-decoration: line-through;
+  }
+
+  .projects {
+   display: grid;
+   position: absolute;
+   margin-left: 320px;
+   margin-top: 30px;
+   grid-row-gap: 170px;
+   grid-column-gap: 70px;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 100px);
+  }
+
+  .project-link:link{
+    text-decoration: none; 
+  }
+
+  .project-link:hover{
+    text-decoration: underline;
+    border-color: red;
+    border-width: 5px;
+    color: rgb(255, 0, 0);  
+  }
+
+  .project-images{
+    text-decoration: none;
+    width: 300px;
+  }
+
+  .project-images:hover{
+    width: 300px;
+  }
+
+  .project-title{
+    margin-left: 2%;
+    font-family: 'Space Mono', monospace;
+    color: black;
+    text-decoration: none; 
+    font-size: 10pt;
+    font-weight: bold;
+  }
+
+  .project-subtitle{
+    margin-left: 2%;
+    font-family: 'Space Mono', monospace;
+    color: black;
+    text-decoration: none; 
+    font-size: 8pt; 
+    font-style: italic;
+  }
+
+  ul {
+    list-style-type: none;
+    line-height: 2;
+  }
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+ @media only screen and (max-width: 601px){
+  .side-bar-background{ 
+    overflow: hidden;
+    position: fixed;
+    z-index: -1;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(255,255,255);
+    border-right-style: dotted;
+  }
+
+  .side-bar-name{  
+    float: left;
+    position: fixed;
+    font-family: 'Space Mono', monospace;
+    font-size: 4vw;             
+    color: black;
+    width: 32%;
+    text-decoration: none;
+    line-height: 1;
+  }
+
+  .side-bar-name:link{
+    font-family: 'Space Mono', monospace; 
+    color: rgb(0,0,0);  
+    text-decoration: none;
+  }
+
+  .side-bar-name:visited{
+    font-family: 'Space Mono', monospace; 
+    color: rgb(0,0,0);  
+    text-decoration: none;
+  }
+
+  .side-bar-name:hover{
+    font-family: 'Space Mono', monospace; 
+    color: rgb(0, 0, 255);  
+    text-decoration: line-through;
+  }
+
+  .header-00{
+    position: fixed;
+    margin-top: 7%;
+    margin-left: -30px;
+  }
+
+  .header-01:link{        
+    float: left;
+    margin-left: -10px;
+    margin-top: 10px;
+    font-size: 2vw;
+    font-family: 'Space Mono', monospace;             
+    color: black;
+    text-decoration: underline;
+    line-height: 1;
+  }
+
+  .header-01:visited{        
+    float: left;
+    margin-left: -10px;
+    margin-top: 10px;
+    font-size: 2vw;
+    font-family: 'Space Mono', monospace;             
+    color: black;
+    text-decoration: none;
+    line-height: 1;
+  }
+ 
+  .header-02{          
+    float: left;
+    margin-top: 5%;
+    margin-left: -20%;
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+    font-size: 2vw;             
+    color: black;
+    text-decoration: none;
+    line-height: 1.2; 
+  }
+
+  .header-01:hover{
+    font-family: 'Space Mono', monospace; 
+    color: rgb(0, 255, 255);  
+    text-decoration: line-through;
+  }
+
+  .header-03{
+    font-family: 'Space Mono', monospace;  
+    text-decoration: none;
+    color: black;
+  }
+
+  .header-03:link{
+    font-family: 'Space Mono', monospace;  
+    text-decoration: none;
+    color: black;
+  }
+
+  .header-03:hover{
+    font-family: 'Space Mono', monospace; 
+    color: rgb(255, 0, 255);  
+    text-decoration: line-through;
+  }
+
+  .projects {
+   display: grid;
+   position: absolute;
+   margin-left: 50%;
+   margin-top: 30px;
+   grid-row-gap: 2%;
+   grid-column-gap: 10%;
+   grid-template-columns: repeat(1, 1fr);
+   grid-template-rows: repeat(1, 1fr);
+  }
+
+  .project-link:link{
+    text-decoration: none; 
+  }
+
+  .project-link:hover{
+    text-decoration: underline;
+    border-color: red;
+    border-width: 5px;
+    color: rgb(255, 0, 0);  
+  }
+
+  .project-images{
+    text-decoration: none;
+    width: 80%;
+  }
+
+  .project-images:hover{
+    width: 80%;
+  }
+
+  .project-title{
+    margin-left: 2%;
+    font-family: 'Space Mono', monospace;
+    color: black;
+    text-decoration: none; 
+    font-size: 10pt;
+    font-weight: bold;
+  }
+
+  .project-subtitle{
+    margin-left: 2%;
+    font-family: 'Space Mono', monospace;
+    color: black;
+    text-decoration: none; 
+    font-size: 8pt; 
+    font-style: italic;
+  }
+
+
+  ul {
+    list-style-type: none;
+    line-height: 2;
+  }
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/*****************************************************************************/
+
+  </style>
+</head>
+
+<body>
+
+  <div class="side-bar-background">
+
+    <h2> <a href="about.html" class="side-bar-name"> HARSHVARDHAN KEDIA </a> </h2>
+  
+    <div class = "header-00"> 
+      <ul>
+
+        <li class="header-01"> <a href="cd.html" class="header-01"> INFO </a> </li>
+        
+        <li>
+          <ul class="header-02">
+            <li><a href="./plaster/plaster.html" class="header-03">-> Resume </a></li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> About </a></li>
+          </ul>
+        </li>
+
+        <li> <a href="cd.html" class="header-01"> COMPUTATIONAL DESIGN </a> </li>
+        
+        <li>
+          <ul class = "header-02">
+            <li> <a href="./plaster/plaster.html" class="header-03">-> Robotic Plaster </a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Archaeology of C.A.D</a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Regal Shoe Store</a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Eco-Machinic Others </a> </li>       
+            <li><a href="./plaster/plaster.html" class="header-03">-> Rethinking the Future Awards </a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Origami Creatures </a> </li> 
+            <li><a href="./plaster/plaster.html" class="header-03">-> Fire-Escape Solver</a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Miscellaneous</a> </li>          
+          </ul>
+        </li>
+
+        <li> <a href="arch.html" class="header-01"> ARCHITECTURE </a> </li>
+        
+        <li>
+          <ul class = "header-02">
+            <li><a href="./plaster/plaster.html" class="header-03">-> Technical Drawings </a> </li>     
+            <li><a href="./plaster/plaster.html" class="header-03">-> Centre for New Media </a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Bath House </a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Library Addition </a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Urban Farming Centre </a> </li>             
+          </ul>
+        </li>
+        
+        <li> <a href="ca.html" class="header-01"> COMPUTATIONAL ART </a> </li>
+        
+        <li>
+          <ul class="header-02">
+            <li><a href="./plaster/plaster.html" class="header-03">-> Robotic Torture Zoo </a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Beard of Boids </a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Kill the Bird </a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Point Compositions </a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Sketches </a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Interruptions </a> </li>
+          </ul>
+        </li>
+
+        <li> <a href="products.html" class="header-01"> PRODUCTS </a> </li>
+        
+        <li>
+          <ul class="header-02">
+            <li><a href="./plaster/plaster.html" class="header-03">-> Anti-Drawing Machine </a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Linguistic Clock </a> </li>
+          </ul>
+        </li>
+
+        <li> <a href="writing.html" class="header-01"> WRITING </a> </li>
+        
+        <li>
+          <ul class="header-02">
+            <li><a href="./plaster/plaster.html" class="header-03">-> Reyner Banham </a> </li>
+            <li><a href="./plaster/plaster.html" class="header-03">-> Temporal Space </a> </li>
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+  <div class = "projects">
+
+  
+        <a href="eco/eco.html" class="project-link"> 
+            <img class="project-images" src="GIF.gif" >       
+            <div class="project-title">ECO-MORPHOLOGY </div>
+            <div class="project-subtitle">An urban grid for the 22nd century </div>
+        </a>
+ 
+        <a href="eco/eco.html" class="project-link"> 
+            <img class="project-images" src="GIF.gif" >       
+            <div class="project-title">ECO-MORPHOLOGY </div>
+            <div class="project-subtitle">An urban grid for the 22nd century </div>
+        </a>
+
+        <a href="eco/eco.html" class="project-link"> 
+            <img class="project-images" src="GIF.gif" >       
+            <div class="project-title">ECO-MORPHOLOGY </div>
+            <div class="project-subtitle">An urban grid for the 22nd century </div>
+        </a>
+
+        <a href="eco/eco.html" class="project-link"> 
+            <img class="project-images" src="GIF.gif" >       
+            <div class="project-title">ECO-MORPHOLOGY </div>
+            <div class="project-subtitle">An urban grid for the 22nd century </div>
+        </a>
+ 
+        <a href="eco/eco.html" class="project-link"> 
+            <img class="project-images" src="GIF.gif" >       
+            <div class="project-title">ECO-MORPHOLOGY </div>
+            <div class="project-subtitle">An urban grid for the 22nd century </div>
+        </a>
+
+        <a href="eco/eco.html" class="project-link"> 
+            <img class="project-images" src="GIF.gif" >       
+            <div class="project-title">ECO-MORPHOLOGY </div>
+            <div class="project-subtitle">An urban grid for the 22nd century </div>
+        </a>
+ 
+        <a href="eco/eco.html" class="project-link"> 
+            <img class="project-images" src="GIF.gif" >       
+            <div class="project-title">ECO-MORPHOLOGY </div>
+            <div class="project-subtitle">An urban grid for the 22nd century </div>
+        </a>
+ 
+        <a href="eco/eco.html" class="project-link"> 
+            <img class="project-images" src="GIF.gif" >       
+            <div class="project-title">ECO-MORPHOLOGY </div>
+            <div class="project-subtitle">An urban grid for the 22nd century </div>
+        </a>
+
+        <a href="eco/eco.html" class="project-link"> 
+            <img class="project-images" src="GIF.gif" >       
+            <div class="project-title">ECO-MORPHOLOGY </div>
+            <div class="project-subtitle">An urban grid for the 22nd century </div>
+        </a>
+
+
+
+        <a href="eco/eco.html" class="project-link"> 
+            <img class="project-images" src="GIF.gif" >       
+            <div class="project-title">ECO-MORPHOLOGY </div>
+            <div class="project-subtitle">An urban grid for the 22nd century </div>
+        </a>
+ 
+        <a href="eco/eco.html" class="project-link"> 
+            <img class="project-images" src="GIF.gif" >       
+            <div class="project-title">ECO-MORPHOLOGY </div>
+            <div class="project-subtitle">An urban grid for the 22nd century </div>
+        </a>
+
+        <a href="eco/eco.html" class="project-link"> 
+            <img class="project-images" src="GIF.gif" >       
+            <div class="project-title">ECO-MORPHOLOGY </div>
+            <div class="project-subtitle">An urban grid for the 22nd century </div>
+        </a>
+
+  </div>
+
+    
+</body>
+</html>
+

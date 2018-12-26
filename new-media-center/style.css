@@ -1,0 +1,369 @@
+  @import url('https://fonts.googleapis.com/css?family=Space+Mono');
+  @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+  .caption{
+    position: relative;
+    float: right;
+    margin-top: -5px;
+    font-family: 'Space Mono', monospace;
+    font-size: 10pt;
+    color: #AA3939;
+    text-decoration: line-through;
+  }
+
+  .plink:link{
+    font-family: 'Space Mono', monospace; 
+    color: rgb(255, 0, 255);  
+    text-decoration: line-through;
+  }
+
+  .plink:visited{
+    font-family: 'Space Mono', monospace; 
+    color: rgb(255, 0, 255);  
+    text-decoration: line-through;
+  }
+
+  .plink:hover{
+    font-family: 'Space Mono', monospace; 
+    color: rgb(255, 0, 255);   
+    text-decoration: none;
+  }
+
+  
+  .dropdown{
+    display: none;
+  }
+
+  @media only screen and (min-width: 600px){
+
+   .side-bar-background{ 
+  overflow: hidden;
+  position: fixed;
+  z-index: +1;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  padding-left: 10px;
+  height: 100%;
+  width: 300px;
+  background:url(
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQYV2NkQAX/GZH4/xkYGBhhAmAOSBJEwDkgAQCCrgQEjpMcPgAAAABJRU5ErkJggg==) 
+  repeat;
+
+/*background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc4JyBoZWlnaHQ9JzgnPgogIDxyZWN0IHdpZHRoPSc4JyBoZWlnaHQ9JzgnIGZpbGw9JyNmZmYnLz4KICA8cGF0aCBkPSdNMCAwTDggOFpNOCAwTDAgOFonIHN0cm9rZS13aWR0aD0nMC41JyBzdHJva2U9JyNhYWEnLz4KPC9zdmc+Cg=="); background-repeat: repeat;    /* border-right-style: dotted; */
+*/  }
+
+  .side-bar-name{ 
+    position: fixed; 
+    float: left;
+    font-family: 'Space Mono', monospace;
+    font-size: 22pt;             
+    color: blue;
+    width: 250px;
+    text-decoration: line-through;
+    line-height: 1;
+  }
+
+  .side-bar-name:link{
+    font-family: 'Space Mono', monospace; 
+    color: blue;  
+    text-decoration: line-through;
+  }
+
+  .side-bar-name:visited{
+    font-family: 'Space Mono', monospace; 
+    color: blue;  
+    text-decoration: none;
+  }
+
+  .side-bar-name:hover{
+    font-family: 'Space Mono', monospace; 
+    color:black;  
+    text-decoration: line-through;
+  }
+
+  .header-00{
+    position: fixed;
+    margin-top: -20px;
+    margin-left: -30px;
+    width: 270px;
+  }
+
+  .header-01:link{        
+    float: left;
+    margin-left: -10px;
+    margin-top: 20px;
+    font-size: 15pt;
+    font-family: 'Space Mono', monospace;             
+    color: #AA3939;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1;
+  }
+
+  .header-01:visited{                
+    color: #AA3939;
+    text-decoration: none;
+  }
+
+  .header-01:hover{
+    font-family: 'Space Mono', monospace; 
+    color: black;  
+    text-decoration: line-through;
+  }
+
+  .header-02{          
+    float: left;
+    margin-top: 5%;
+    margin-left: -20%;
+    width: 120%;
+    font-family: 'Space Mono', monospace;
+    font-size: 12pt;             
+    color: navy;
+    text-decoration: none;
+    line-height: 1.1; 
+  }
+
+  .header-03:link{
+    color:black;
+    text-decoration: none;
+  }
+
+  .header-03:visited{
+    color:black;
+    text-decoration: none;
+  }
+
+  .header-03:hover{
+    font-family: 'Space Mono', monospace; 
+    color: black;  
+    text-decoration: line-through;
+  }
+
+  ul {
+    list-style-type: none;
+    line-height: 2;
+  }
+
+  .project-title{
+    position: absolute;
+    float: left;
+    margin-left: 350px;
+    margin-top: 0px;
+    font-family: 'Space Mono', monospace;
+    font-size: 18pt;
+    color: black;
+  }
+
+  .project-subtitle{
+    position: absolute;
+    float: left;
+    margin-left: 350px;
+    margin-top: 30px;
+    font-family: 'Space Mono', monospace;
+    font-size: 10pt;
+    color: gray;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
+  .project-writing{
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+    font-size: 10pt;
+    line-height: 11pt;
+    background-color: white;
+  }
+
+  .project-grid {
+    display: grid;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 60px;
+    grid-column-gap: 50px;
+    grid-template-columns: 450px 450px;
+    justify-items: center;  
+    align-items: center;
+    background-color: white;
+  }
+
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .item2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+@media only screen and (max-width: 601px){
+
+  /*dropdown functions*/
+
+    .material-icons.md-36 { font-size: 36px; }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    .show {display:block;}
+
+  /*Dropdown stuff*/
+
+      .side-bar-background{
+        display: none;
+      }
+
+      .dropdown-sidebar{ 
+        overflow: hidden;
+        position: fixed;
+        z-index: +1;
+        margin-bottom: -10px;
+        margin-left: -10px;
+        padding-left: 10px;
+        height: 100%;
+        width: 300px;
+        background:url(
+          data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQYV2NkQAX/GZH4/xkYGBhhAmAOSBJEwDkgAQCCrgQEjpMcPgAAAABJRU5ErkJggg==) 
+        repeat;
+        background-color: white;
+
+      }
+
+      .header-01:link{       
+        float: left;
+        margin-left: -30px;
+        margin-top: 20px;
+        font-size: 15pt;
+        font-family: 'Space Mono', monospace;             
+        color: #AA3939;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: #f1f1f1;
+      }
+
+      .header-01:visited{                
+        color: #AA3939;
+        text-decoration: none;
+        background-color: #f1f1f1;
+      }
+
+      .header-01:hover{
+        font-family: 'Space Mono', monospace; 
+        color: black;  
+        text-decoration: line-through;
+      }
+
+      .header-02{          
+        float: left;
+        margin-top: 5%;
+        margin-left: -20px;
+        margin-right: 100px;
+        width: 150%;
+        font-family: 'Space Mono', monospace;
+        font-size: 12pt;             
+        color: navy;
+        text-decoration: none;
+        line-height: 1.1; 
+      }
+
+      .header-03:link{
+        background-color: #f1f1f1;
+        color:black;
+        text-decoration: none;
+      }
+
+      .header-03:visited{
+        background-color: #f1f1f1;
+        color:black;
+        text-decoration: none;
+      }
+
+      .header-03:hover{
+        font-family: 'Space Mono', monospace; 
+        color: black;  
+        text-decoration: line-through;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+  .project-title{
+    position: absolute;
+    float: left;
+    margin-left: 30px;
+    margin-top: 0px;
+    font-family: 'Space Mono', monospace;
+    font-size: 15pt;
+    color: gray;
+    width: 500px;
+    background-color: white;
+  }
+
+  .project-subtitle{
+    position: absolute;
+    float: left;
+    margin-left: 30px;
+    margin-top: 25px;
+    font-family: 'Space Mono', monospace;
+    font-size: 10pt;
+    background-color: white;
+  }
+
+  .project-grid {
+    display: grid;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 60px;
+    grid-column-gap: 50px;
+    grid-template-columns: 450px 450px;
+    justify-items: center;  
+    align-items: center;
+    background-color: white;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
+  .project-writing{
+    font-family: 'Space Mono', monospace;
+    font-size: 10pt;
+    margin-left: 3px;
+    margin-top: 15px;
+    line-height: 11pt;
+    background-color: white;
+  }
+}
+
