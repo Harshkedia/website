@@ -14,22 +14,21 @@
 
   .plink:link{
     font-family: 'Space Mono', monospace; 
-    color: rgb(255, 0, 255);  
+    color: #AA3939;  
     text-decoration: line-through;
   }
 
   .plink:visited{
     font-family: 'Space Mono', monospace; 
-    color: rgb(255, 0, 255);  
+    color: #AA3939;  
     text-decoration: line-through;
   }
 
   .plink:hover{
     font-family: 'Space Mono', monospace; 
-    color: rgb(255, 0, 255);   
+    color: black;   
     text-decoration: none;
   }
-
   
   .dropdown{
     display: none;
