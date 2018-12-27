@@ -4,13 +4,13 @@
   .plink:link{
     font-family: 'Space Mono', monospace; 
     color: #AA3939;  
-    text-decoration: line-through;
+    text-decoration: none;
   }
 
   .plink:visited{
     font-family: 'Space Mono', monospace; 
     color: #AA3939;  
-    text-decoration: line-through;
+    text-decoration: none;
   }
 
   .plink:hover{
@@ -48,14 +48,14 @@
       font-size: 22pt;             
       color: blue;
       width: 250px;
-      text-decoration: line-through;
+      text-decoration: none;
       line-height: 1;
     }
 
     .side-bar-name:link{
       font-family: 'Space Mono', monospace; 
       color: blue;  
-      text-decoration: line-through;
+      text-decoration: none;
     }
 
     .side-bar-name:visited{
@@ -67,7 +67,7 @@
     .side-bar-name:hover{
       font-family: 'Space Mono', monospace; 
       color:black;  
-      text-decoration: line-through;
+      text-decoration: none;
     }
 
     .header-00{
@@ -97,7 +97,7 @@
     .header-01:hover{
       font-family: 'Space Mono', monospace; 
       color: black;  
-      text-decoration: line-through;
+      text-decoration: none;
     }
 
     .header-02{          
@@ -124,8 +124,8 @@
 
     .header-03:hover{
       font-family: 'Space Mono', monospace; 
-      color: black;  
-      text-decoration: line-through;
+      color: #AA3939;  
+      text-decoration: none;
     }
 
     .project-title{
@@ -224,7 +224,7 @@
         .header-01:hover{
           font-family: 'Space Mono', monospace; 
           color: black;  
-          text-decoration: line-through;
+          text-decoration: none;
         }
 
         .header-02{          
@@ -255,7 +255,7 @@
         .header-03:hover{
           font-family: 'Space Mono', monospace; 
           color: black;  
-          text-decoration: line-through;
+          text-decoration: none;
         }
 
         ul {

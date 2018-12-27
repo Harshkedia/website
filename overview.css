@@ -30,14 +30,14 @@
     font-size: 22pt;             
     color: blue;
     width: 250px;
-    text-decoration: line-through;
+    text-decoration: none;
     line-height: 1;
   }
 
   .side-bar-name:link{
     font-family: 'Space Mono', monospace; 
     color: blue;  
-    text-decoration: line-through;
+    text-decoration: none;
   }
 
   .side-bar-name:visited{
@@ -49,7 +49,7 @@
   .side-bar-name:hover{
     font-family: 'Space Mono', monospace; 
     color:black;  
-    text-decoration: line-through;
+    text-decoration: none;
   }
 
   .header-00{
@@ -79,7 +79,7 @@
   .header-01:hover{
     font-family: 'Space Mono', monospace; 
     color: black;  
-    text-decoration: line-through;
+    text-decoration: none;
   }
 
   .header-02{          
@@ -104,11 +104,11 @@
     text-decoration: none;
   }
 
-  .header-03:hover{
-    font-family: 'Space Mono', monospace; 
-    color: black;  
-    text-decoration: line-through;
-  }
+    .header-03:hover{
+      font-family: 'Space Mono', monospace; 
+      color: #AA3939;  
+      text-decoration: none;
+    }
 
   .projects {
    display: grid;
@@ -134,7 +134,7 @@
 
   .project-link:hover .project-title{
     color: #AA3939;
-    text-decoration: line-through;
+    text-decoration: none;
     font-weight: bold;
   }
 
@@ -147,7 +147,7 @@
 
   .project-line:visited{
     color: red;
-    text-decoration: line-through;
+    text-decoration: none;
   }
 
   .project-title{
@@ -253,7 +253,7 @@
         .header-01:hover{
           font-family: 'Space Mono', monospace; 
           color: black;  
-          text-decoration: line-through;
+          text-decoration: none;
         }
 
         .header-02{          
@@ -284,7 +284,7 @@
         .header-03:hover{
           font-family: 'Space Mono', monospace; 
           color: black;  
-          text-decoration: line-through;
+          text-decoration: none;
         }
 
         ul {

@@ -131,11 +131,11 @@
     text-decoration: none;
   }
 
-  .header-03:hover{
-    font-family: 'Space Mono', monospace; 
-    color: black;  
-    text-decoration: line-through;
-  }
+    .header-03:hover{
+      font-family: 'Space Mono', monospace; 
+      color: #AA3939;  
+      text-decoration: none;
+    }
 
   ul {
     list-style-type: none;
