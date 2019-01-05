@@ -10,6 +10,11 @@
     color: #AA3939;
     text-decoration: none;
   }
+    .colored{
+    font-family: 'Space Mono', monospace; 
+    text-decoration: underline;
+    font-size: 10pt;
+  }
 
 
   .plink:link{
