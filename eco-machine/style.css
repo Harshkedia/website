@@ -173,6 +173,7 @@
     margin-left: 350px;
     margin-top: 60px;
     grid-column-gap: 50px;
+    grid-row-gap: 50px;
     grid-template-columns: 450px 450px;
     justify-items: center;  
     align-items: center;
