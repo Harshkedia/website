@@ -116,6 +116,7 @@
         font-size: 10pt;
         font-family: "Courier New", Courier, monospace;             
         color: gray;
+font-weight: normal;
         font-weight: normal;
         text-decoration: none;
         line-height: 1;
@@ -123,6 +124,7 @@
 
       .header-012:visited{                
         color: gray;
+font-weight: normal;
         text-decoration: none;
       }
 
@@ -144,6 +146,7 @@
     margin-top: 0px;
     font-family: "Courier New", Courier, monospace;
     font-size: 18pt;
+    font-weight: normal;
     color: black;
   }
 
@@ -155,6 +158,7 @@
     font-family: "Courier New", Courier, monospace;
     font-size: 10pt;
     color: gray;
+font-weight: normal;
   }
 
   .project-image {
@@ -176,7 +180,7 @@
     margin-top: 60px;
     grid-column-gap: 50px;
     grid-template-columns: 450px 450px;
-    justify-items: center;  
+    justify-content: left;  
     align-items: center;
     background-color: white;
   }
@@ -312,6 +316,7 @@
     font-family: "Courier New", Courier, monospace;
     font-size: 15pt;
     color: gray;
+font-weight: normal;
     width: 500px;
     background-color: white;
   }

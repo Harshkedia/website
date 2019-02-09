@@ -82,6 +82,7 @@
       font-size: 10pt;
       font-family: "Courier New", Courier, monospace;             
       color: gray;
+font-weight: normal;
       font-weight: normal;
       text-decoration: none;
       line-height: 1;
@@ -89,6 +90,7 @@
 
     .header-012:visited{                
       color: gray;
+font-weight: normal;
       text-decoration: none;
     }
 
@@ -151,6 +153,7 @@
   .project-subtitle{
     font-family: "Courier New", Courier, monospace;
     color: gray;
+font-weight: normal;
     text-decoration: none; 
     font-size: 8pt; 
     font-style: italic;
