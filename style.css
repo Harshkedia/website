@@ -70,7 +70,9 @@
       text-decoration: none;
     }
 
-
+    .header-001{
+      margin-top: 20px;
+    }
 
     .header-011:link{        
       margin-top: 20px;
@@ -121,7 +123,7 @@ font-weight: normal;
   .project-title{
     position: absolute;
     margin-left: 350px;
-    margin-right: 350px;
+    margin-right: 550px;
     margin-top: 30px;
     font-weight: normal;
     line-height: 1.5;
@@ -129,7 +131,6 @@ font-weight: normal;
     color: black;
     font-size: 15pt;
   }
-
 
   ul {
     list-style-type: none;
