@@ -35,7 +35,7 @@
       font-size: 30pt;
       font-family: 'VT323', monospace;            
       color: #AA3939;
-      font-weight: bold;
+      font-weight: normal;
       text-decoration: none;
       line-height: 1;
     }
@@ -58,9 +58,9 @@
       margin-top: 20px;
       margin-left: 5px;
       font-size: 10pt;
-      font-family: 'Space Mono', monospace;             
+      font-family: "Courier New", Courier, monospace;             
       color: black;
-      font-weight: bold;
+      font-weight: normal;
       text-decoration: none;
       line-height: 1;
     }
@@ -71,7 +71,7 @@
     }
 
     .header-011:hover{
-      font-family: 'Space Mono', monospace; 
+      font-family: "Courier New", Courier, monospace; 
       color: #AA3939;  
       text-decoration: none;
     }
@@ -80,9 +80,9 @@
       margin-top: 20px;
       margin-left: 5px;
       font-size: 10pt;
-      font-family: 'Space Mono', monospace;             
+      font-family: "Courier New", Courier, monospace;             
       color: gray;
-      font-weight: bold;
+      font-weight: normal;
       text-decoration: none;
       line-height: 1;
     }
@@ -93,7 +93,7 @@
     }
 
     .header-012:hover{
-      font-family: 'Space Mono', monospace; 
+      font-family: "Courier New", Courier, monospace; 
       color: #AA3939;  
       text-decoration: none;
     }
@@ -123,7 +123,7 @@
   .project-link:hover .project-title{
     color: #AA3939;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
   }
 
   .project-link:hover .project-images{
@@ -139,16 +139,17 @@
   }
 
   .project-title{
-    font-family: 'Space Mono', monospace;
+    font-family: "Courier New", Courier, monospace;
     color: black;
-    text-decoration: none; 
+    text-decoration: none;
+    margin-top: 10px; 
     font-size: 12pt;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
   }
 
   .project-subtitle{
-    font-family: 'Space Mono', monospace;
+    font-family: "Courier New", Courier, monospace;
     color: gray;
     text-decoration: none; 
     font-size: 8pt; 
@@ -225,9 +226,9 @@
           margin-left: -30px;
           margin-top: 20px;
           font-size: 15pt;
-          font-family: 'Space Mono', monospace;             
+          font-family: "Courier New", Courier, monospace;             
           color: #AA3939;
-          font-weight: bold;
+          font-weight: normal;
           text-decoration: none;
           background-color: #f1f1f1;
         }
@@ -239,7 +240,7 @@
         }
 
         .header-01:hover{
-          font-family: 'Space Mono', monospace; 
+          font-family: "Courier New", Courier, monospace; 
           color: black;  
           text-decoration: none;
         }
@@ -250,7 +251,7 @@
           margin-left: -20px;
           margin-right: 100px;
           width: 150%;
-          font-family: 'Space Mono', monospace;
+          font-family: "Courier New", Courier, monospace;
           font-size: 12pt;             
           color: navy;
           text-decoration: none;
@@ -270,7 +271,7 @@
         }
 
         .header-03:hover{
-          font-family: 'Space Mono', monospace; 
+          font-family: "Courier New", Courier, monospace; 
           color: black;  
           text-decoration: none;
         }
@@ -311,16 +312,16 @@
 
     .project-title{
       margin-left: 2%;
-      font-family: 'Space Mono', monospace;
+      font-family: "Courier New", Courier, monospace;
       color: black;
       text-decoration: none; 
       font-size: 10pt;
-      font-weight: bold;
+      font-weight: normal;
     }
 
     .project-subtitle{
       margin-left: 2%;
-      font-family: 'Space Mono', monospace;
+      font-family: "Courier New", Courier, monospace;
       color: black;
       text-decoration: none; 
       font-size: 8pt; 
