@@ -18,8 +18,9 @@
       margin-top: 20px;
       margin-bottom: -10px;
       padding-left: 10px;
-      height: 100%;
-      width: 300px;
+      height: 400px;
+      width: 200px;
+      background-color: white;
     }
 
     .header-00{
@@ -120,6 +121,7 @@
   .project-link:link{
     color: black;  
     text-decoration: none;
+    background-color: white;
   }
 
   .project-link:hover .project-title{
@@ -216,7 +218,7 @@
           margin-left: -10px;
           padding-left: 10px;
           height: 100%;
-          width: 300px;
+          width: 200px;
           background:url(
             data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQYV2NkQAX/GZH4/xkYGBhhAmAOSBJEwDkgAQCCrgQEjpMcPgAAAABJRU5ErkJggg==) 
           repeat;
