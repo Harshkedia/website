@@ -8,9 +8,9 @@ var width = window.innerWidth;
 var height = window.innerHeight;
 
 // simulation settings
-var num_of_nodes = 500;
+var num_of_nodes = 1000;
 var charge_strength = -1000;
-var attraction_strength = 0;
+var attraction_strength = 0.0025;
 
 // node dims
 var min_r = 1;
@@ -23,8 +23,8 @@ var nodes = d3.range(num_of_nodes).map(function() { return {radius: Math.random(
 
 root.radius = 1;
 root.fixed = true;
-root.px = 800;
-root.py = 800;
+root.px = Math.random()*window.innerWidth;
+root.py = Math.random()*window.innerHeight;
 var force = d3.layout.force()
     .gravity(attraction_strength)
     .charge(function(d, i) { return i ? 0 : charge_strength; })

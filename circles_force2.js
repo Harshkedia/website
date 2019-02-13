@@ -9,7 +9,7 @@ var height = window.innerHeight*2;
 
 // simulation settings
 var num_of_nodes = 300;
-var charge_strength = -1000;
+var charge_strength = -50;
 var attraction_strength = 0;
 
 // node dims

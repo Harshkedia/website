@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches');
 @import url('https://fonts.googleapis.com/css?family=Coiny');
 @import url('https://fonts.googleapis.com/css?family=VT323');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
 
 @media only screen and (min-width: 600px){
 
@@ -15,7 +15,7 @@
       overflow: hidden;
       position: fixed;
       z-index: +1;
-      margin-top: 20px;
+      margin-top: 30px;
       margin-bottom: -10px;
       padding-left: 10px;
       height: 400px;
@@ -32,9 +32,9 @@
 
     .header-01:link{        
 
-      margin-top: 20px;
-      font-size: 30pt;
-      font-family: 'VT323', monospace;            
+      margin-top: 30px;
+      font-size: 20pt;
+      font-family: 'Work Sans', thin;            
       color: #AA3939;
       font-weight: normal;
       text-decoration: none;
@@ -52,14 +52,14 @@
     }
 
     .header-001{
-      margin-top: 20px;
+      margin-top: 30px;
     }
 
     .header-011:link{        
-      margin-top: 20px;
+      margin-top: 30px;
       margin-left: 5px;
       font-size: 10pt;
-      font-family: "Courier New", Courier, monospace;             
+      font-family: 'Work Sans', sans-serif;             
       color: black;
       font-weight: normal;
       text-decoration: none;
@@ -72,16 +72,18 @@
     }
 
     .header-011:hover{
-      font-family: "Courier New", Courier, monospace; 
+      background-color: white;
+      padding-right:5px;
+      font-family: 'Work Sans', sans-serif; 
       color: #AA3939;  
       text-decoration: none;
     }
 
     .header-012:link{        
-      margin-top: 20px;
+      margin-top: 30px;
       margin-left: 5px;
       font-size: 10pt;
-      font-family: "Courier New", Courier, monospace;             
+      font-family: 'Work Sans', sans-serif;             
       color: gray;
       font-weight: normal;
       font-weight: normal;
@@ -96,7 +98,7 @@
     }
 
     .header-012:hover{
-      font-family: "Courier New", Courier, monospace; 
+      font-family: 'Work Sans', sans-serif; 
       color: #AA3939;  
       text-decoration: none;
     }
@@ -115,7 +117,7 @@
     width: 250px;
     height: 250px;
     object-fit: cover;
-    border-radius: 75px;
+    border-radius: 200px;
   }
 
   .project-link:link{
@@ -143,23 +145,24 @@
   }
 
   .project-title{
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Work Sans', sans-serif;
     color: black;
     text-decoration: none;
     margin-top: 10px; 
     font-size: 12pt;
     font-weight: normal;
-    text-align: left;
+    text-align: center;
   }
 
   .project-subtitle{
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Work Sans', sans-serif;
     color: gray;
     font-weight: normal;
     text-decoration: none; 
     font-size: 8pt; 
-    font-style: italic;
-    text-align: left;
+    text-align: center;
+    margin-top: 5px;
+    
   }
 
   ul {
@@ -229,9 +232,9 @@
         .header-01:link{       
           float: left;
           margin-left: -30px;
-          margin-top: 20px;
+          margin-top: 30px;
           font-size: 15pt;
-          font-family: "Courier New", Courier, monospace;             
+          font-family: 'Work Sans', sans-serif;             
           color: #AA3939;
           font-weight: normal;
           text-decoration: none;
@@ -245,7 +248,7 @@
         }
 
         .header-01:hover{
-          font-family: "Courier New", Courier, monospace; 
+          font-family: 'Work Sans', sans-serif; 
           color: black;  
           text-decoration: none;
         }
@@ -256,7 +259,7 @@
           margin-left: -20px;
           margin-right: 100px;
           width: 150%;
-          font-family: "Courier New", Courier, monospace;
+          font-family: 'Work Sans', sans-serif;
           font-size: 12pt;             
           color: navy;
           text-decoration: none;
@@ -276,7 +279,7 @@
         }
 
         .header-03:hover{
-          font-family: "Courier New", Courier, monospace; 
+          font-family: 'Work Sans', sans-serif; 
           color: black;  
           text-decoration: none;
         }
@@ -317,7 +320,7 @@
 
     .project-title{
       margin-left: 2%;
-      font-family: "Courier New", Courier, monospace;
+      font-family: 'Work Sans', sans-serif;
       color: black;
       text-decoration: none; 
       font-size: 10pt;
@@ -326,10 +329,11 @@
 
     .project-subtitle{
       margin-left: 2%;
-      font-family: "Courier New", Courier, monospace;
+      font-family: 'Work Sans', sans-serif;
       color: black;
       text-decoration: none; 
       font-size: 8pt; 
       font-style: italic;
+
     }
 }

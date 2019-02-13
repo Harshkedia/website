@@ -2,32 +2,32 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches');
 @import url('https://fonts.googleapis.com/css?family=Coiny');
 @import url('https://fonts.googleapis.com/css?family=VT323');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
 
   .caption{
     position: relative;
     float: right;
     margin-top: -5px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Work Sans', sans-serif;
     font-size: 10pt;
     color: #AA3939;
     text-decoration: none;
   }
 
   .plink:link{
-    font-family: "Courier New", Courier, monospace; 
+    font-family: 'Work Sans', sans-serif; 
     color: #AA3939;  
     text-decoration: none;
   }
 
   .plink:visited{
-    font-family: "Courier New", Courier, monospace; 
+    font-family: 'Work Sans', sans-serif; 
     color: #AA3939;  
     text-decoration: none;
   }
 
   .plink:hover{
-    font-family: "Courier New", Courier, monospace; 
+    font-family: 'Work Sans', sans-serif; 
     color: black;   
     text-decoration: none;
   }
@@ -43,7 +43,7 @@
         overflow: hidden;
         position: fixed;
         z-index: +1;
-        margin-top: 20px;
+        margin-top: 30px;
         margin-bottom: -10px;
         padding-left: 10px;
         height: 100%;
@@ -59,9 +59,9 @@
 
       .header-01:link{        
 
-        margin-top: 20px;
-        font-size: 30pt;
-        font-family: 'VT323', monospace;            
+        margin-top: 30px;
+        font-size: 20pt;
+        font-family: 'Work Sans', thin;            
         color: #AA3939;
         font-weight: normal;
         text-decoration: none;
@@ -79,14 +79,14 @@
       }
 
       .header-001{
-        margin-top: 20px;
+        margin-top: 30px;
       }
 
       .header-011:link{        
-        margin-top: 20px;
+        margin-top: 30px;
         margin-left: 5px;
         font-size: 10pt;
-        font-family: "Courier New", Courier, monospace;             
+        font-family: 'Work Sans', sans-serif;             
         color: black;
         font-weight: normal;
         text-decoration: none;
@@ -99,16 +99,18 @@
       }
 
       .header-011:hover{
-        font-family: "Courier New", Courier, monospace; 
+      background-color: white;
+      padding-right:5px;
+        font-family: 'Work Sans', sans-serif; 
         color: #AA3939;  
         text-decoration: none;
       }
 
       .header-012:link{        
-        margin-top: 20px;
+        margin-top: 30px;
         margin-left: 5px;
         font-size: 10pt;
-        font-family: "Courier New", Courier, monospace;             
+        font-family: 'Work Sans', sans-serif;             
         color: gray;
 font-weight: normal;
         font-weight: normal;
@@ -123,7 +125,7 @@ font-weight: normal;
       }
 
       .header-012:hover{
-        font-family: "Courier New", Courier, monospace; 
+        font-family: 'Work Sans', sans-serif; 
         color: #AA3939;  
         text-decoration: none;
       }
@@ -138,7 +140,7 @@ font-weight: normal;
     float: left;
     margin-left: 350px;
     margin-top: 0px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Work Sans', sans-serif;
     font-size: 18pt;
     font-weight: normal;
     color: black;
@@ -149,7 +151,7 @@ font-weight: normal;
     float: left;
     margin-left: 350px;
     margin-top: 30px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Work Sans', sans-serif;
     font-size: 10pt;
     color: gray;
 font-weight: normal;
@@ -161,7 +163,7 @@ font-weight: normal;
 
   .project-writing{
     width: 100%;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Work Sans', sans-serif;
     font-size: 10pt;
     line-height: 11pt;
     background-color: white;
@@ -253,9 +255,9 @@ font-weight: normal;
       .header-01:link{       
         float: left;
         margin-left: -30px;
-        margin-top: 20px;
+        margin-top: 30px;
         font-size: 15pt;
-        font-family: "Courier New", Courier, monospace;             
+        font-family: 'Work Sans', sans-serif;             
         color: #AA3939;
         font-weight: normal;
         text-decoration: none;
@@ -269,7 +271,7 @@ font-weight: normal;
       }
 
       .header-01:hover{
-        font-family: "Courier New", Courier, monospace; 
+        font-family: 'Work Sans', sans-serif; 
         color: black;  
         text-decoration: none;
       }
@@ -280,7 +282,7 @@ font-weight: normal;
         margin-left: -20px;
         margin-right: 100px;
         width: 150%;
-        font-family: "Courier New", Courier, monospace;
+        font-family: 'Work Sans', sans-serif;
         font-size: 12pt;             
         color: navy;
         text-decoration: none;
@@ -300,7 +302,7 @@ font-weight: normal;
       }
 
       .header-03:hover{
-        font-family: "Courier New", Courier, monospace; 
+        font-family: 'Work Sans', sans-serif; 
         color: black;  
         text-decoration: none;
       }
@@ -314,7 +316,7 @@ font-weight: normal;
     float: left;
     margin-left: 30px;
     margin-top: 0px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Work Sans', sans-serif;
     font-size: 15pt;
     color: gray;
 font-weight: normal;
@@ -327,7 +329,7 @@ font-weight: normal;
     float: left;
     margin-left: 30px;
     margin-top: 25px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Work Sans', sans-serif;
     font-size: 10pt;
     background-color: white;
   }
@@ -349,7 +351,7 @@ font-weight: normal;
   }
 
   .project-writing{
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Work Sans', sans-serif;
     font-size: 10pt;
     margin-left: 3px;
     margin-top: 15px;
