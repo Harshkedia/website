@@ -1,107 +1,144 @@
-
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Harshvardhan Kedia</title>
+    <link rel="icon shortcut" href="icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <script src="https://d3js.org/d3.v3.js"></script>
+  </head>
 
-<head>
-  <title> Harshvardhan Kedia </title>
-  <link rel="icon shortcut" href="icon.ico" type="image/x-icon" />
-  <link rel = "stylesheet" type = "text/css" href = "style.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <script src="https://d3js.org/d3.v3.js"></script>
-</head>
+  <body>
+    <div class="dropdown">
+      <i id="myBtn" class="material-icons md-36">list</i>
 
+      <div id="myDropdown" class="dropdown-content">
+        <div class="dropdown-sidebar">
+          <div class="header-00">
+            <ul>
+              <li>
+                <a href="./index.html" class="header-01">
+                  HARSHVARDHAN KEDIA
+                </a>
+              </li>
+              <li>
+                <ul class="header-02">
+                  <li>
+                    <a href="./about.html" class="header-03">-> About </a>
+                  </li>
+                  <li></li>
+                  <li>
+                    <a href="./resume.html" class="header-03">-> Resume </a>
+                  </li>
+                </ul>
+              </li>
 
-<body>
+              <li>
+                <a href="./cd.html" class="header-01"> COMPUTATIONAL DESIGN </a>
+              </li>
 
-<div class="dropdown"> 
+              <li>
+                <a href="./arch.html" class="header-01"> ARCHITECTURE </a>
+              </li>
 
-  <i id="myBtn" class="material-icons md-36">list</i>
+              <li>
+                <a href="./ca.html" class="header-01"> COMPUTATIONAL ART </a>
+              </li>
 
-  <div id="myDropdown" class="dropdown-content">
-    <div class="dropdown-sidebar">
-      <div class = "header-00"> 
+              <li>
+                <ul class="header-02">
+                  <li>
+                    <a href="./adverts/adverts.html" class="header-03"
+                      >-> Ads for Arch 2.0</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./banham/banham.html" class="header-03"
+                      >-> Reyner Banham
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./negligence/negligence.html" class="header-03"
+                      >-> Temporal Space
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Get the button, and when the user clicks on it, execute myFunction
+      document.getElementById("myBtn").onclick = function() {
+        myFunction();
+      };
+
+      /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+    </script>
+
+    <div class="side-bar-background">
+      <div class="header-00">
         <ul>
-          <li> <a href="./index.html" class="header-01"> HARSHVARDHAN KEDIA </a> </li>
           <li>
-            <ul class="header-02">
-              <li><a href="./about.html" class="header-03">-> About </a></li>
-              <li></li>
-              <li><a href="./resume.html" class="header-03">-> Resume </a></li>    
-            </ul>
+            <a href="./index.html" class="header-01">Harshvardhan Kedia </a>
           </li>
 
-          <li> <a href="./cd.html" class="header-01"> COMPUTATIONAL DESIGN </a> </li>
-          
-          <li> <a href="./arch.html" class="header-01"> ARCHITECTURE </a> </li>
+          <div class="header-001">
+            <li><a href="./overview.html" class="header-011">All Work</a></li>
 
-          <li> <a href="./ca.html" class="header-01"> COMPUTATIONAL ART </a> </li>
-          
-          <li>
-            <ul class="header-02">
-              <li><a href="./adverts/adverts.html" class="header-03">-> Ads for Arch 2.0</a> </li>
-              <li><a href="./banham/banham.html" class="header-03">-> Reyner Banham </a> </li>
-              <li><a href="./negligence/negligence.html" class="header-03">-> Temporal Space </a> </li>
-            </ul>
-          </li>
+            <li><a href="./cd.html" class="header-011">Design Computing</a></li>
+
+            <li><a href="./arch.html" class="header-011">Architecture </a></li>
+
+            <li>
+              <a href="./ca.html" class="header-011">Computational Art</a>
+            </li>
+
+            <li><a href="./writing.html" class="header-011">Ideas</a></li>
+
+            <li><a href="./about.html" class="header-012">About</a></li>
+            <li><a href="resume.pdf" class="header-012">Resume</a></li>
+          </div>
         </ul>
       </div>
     </div>
-  </div>
-</div>
-
-<script>
-// Get the button, and when the user clicks on it, execute myFunction
-document.getElementById("myBtn").onclick = function() {myFunction()};
-
-/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");    
-}
-</script>
-
-<div class="side-bar-background">
-    <div class = "header-00"> 
-      <ul>
-        <li> <a href="./index.html" class="header-01">Harshvardhan Kedia </a> </li>
-
-        <div class="header-001">
-
-            <li> <a href="./overview.html" class="header-011">All Work</a> </li>
-
-            <li> <a href="./cd.html" class="header-011">Design Computing</a> </li>
-            
-            <li> <a href="./arch.html" class="header-011">Architecture </a> </li>
-            
-            <li> <a href="./ca.html" class="header-011">Computational Art</a> </li>
-            
-            <li> <a href="./writing.html" class="header-011">Ideas</a> </li>
-
-            <li><a href="./about.html" class="header-012">About</a></li>
-            <li><a href="resume.pdf" class="header-012">Resume</a></li> 
-        </div>
-        
-      </ul>
-    </div>
-</div>
 
     <h2 class="project-title">
-    <a href="overview.html" class="plink">Hi there, I'm Harsh and I like designing experiences that delight,
-    mystify and mediate.</a> <br> <br>
-    I currently work as a design computation leader at NBBJ design and my skills range from 
-    Computational Design and Computer Graphics to Digital Fabrication and 
-    New Media Art.<br><br>
-    So far, I've worked at <a href="https://bcj.com/" class="plink">Bohlin Cywinski Jackson</a>
-    and <a href = "http://www.nudeoffices.com/" class="plink">Nudes</a>.
-    I've also taught woodworking at <a href="https://www.makersasylum.com/" class="plink"> Maker's Asylum</a>.
-    <br>
-    <br>
-    Here's a selection of my <a href="overview.html" class="plink">work</a> 
-    so far.
-    <br><br>
-    Feel free to reach out to me at <a href="mailto:harshkedi@gmail.com" class="plink">harshkedi at gmail dot com</a>!
+      <a href="overview.html" class="plink"
+        >Hi there, I'm Harsh and I like designing experiences that delight,
+        mystify and mediate.</a
+      >
+      <br />
+      <br />
+      I'm a design computation leader at
+      <a href="http://nbbj.com"> NBBJ design </a> and my skills range from
+      Computational Design and Computer Graphics to Digital Fabrication and New
+      Media Art.<br /><br />
+      So far, I've worked at
+      <a href="https://bcj.com/" class="plink">Bohlin Cywinski Jackson</a> and
+      <a href="http://www.nudeoffices.com/" class="plink">Nudes</a>. I've also
+      taught woodworking at
+      <a href="https://www.makersasylum.com/" class="plink"> Maker's Asylum</a>.
+      <br />
+      <br />
+      Here's a selection of my <a href="overview.html" class="plink">work</a>
+      so far.
+      <br /><br />
+      Feel free to reach out to me at
+      <a href="mailto:harshkedi@gmail.com" class="plink"
+        >harshkedi at gmail dot com</a
+      >!
     </h2>
-    
-    <script src="circles_force.js"></script>
-</body>
-</html>
 
+    <script src="circles_force.js"></script>
+  </body>
+</html>
